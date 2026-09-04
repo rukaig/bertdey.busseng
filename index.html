@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoyBusseng | Happy Birthday</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  
+    <header class="navbar">
+
+        <div class="logo">NITFLEKS</div>
+
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">TV Shows</a>
+            <a href="#">Movies</a>
+            <a href="#">Genres</a>
+            <a href="#">My List</a>
+        </nav>
+
+    </header>
+
+
+    <aside class="sidebar">
+
+        <button aria-label="Search">⌕</button>
+        <button aria-label="Home">⌂</button>
+        <button aria-label="Trending">⌁</button>
+        <button aria-label="TV">▣</button>
+        <button aria-label="Add to list">+</button>
+
+    </aside>
+
+
+    <main>
+
+        <section class="hero" id="hero">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <div class="small-label">
+                    SPISHAL DEY
+                </div>
+
+                <h1>
+                    HAPIY<br>
+                    BERTDEY<br>
+                    <span id="birthday-name">BUSSENG</span>!
+                </h1>
+
+                <p class="description">
+                    Today is all about celebrating you! May your birthday
+                    be filled with happiness, laughter, wonderful memories,
+                    and people who make every moment special. Keep being the
+                    amazing person you are, and may this new chapter bring
+                    you countless reasons to smile.
+                </p>
+
+
+                <div class="buttons">
+
+                    <button class="play-btn" id="playButton">
+                        <span>▶</span> PLAY
+                    </button>
+
+                    <button class="list-btn" id="randomButton">
+                        <span>＋</span> RANDOM MEMORY
+                    </button>  
+                    
+
+                </div>
+
+
+                <div class="info">
+
+                    <span>2026</span>
+                    <span class="dot">•</span>
+                    <span>Birtdey spishal</span>
+                    <span class="dot">•</span>
+                    <span>Best Memories</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+     
+        <section class="memories">
+
+            <div class="section-title">
+
+                <h2>Birthday Memories</h2>
+
+                <span id="counter">
+                    1 / 6
+                </span>
+
+            </div>
+
+
+            <div class="memory-row" id="memoryRow">
+
+                
+                <button class="memory active" data-index="0"> 
+                <img src="photo7.jpg"></img>
+
+                </button>
+
+
+               
+                <button class="memory" data-index="1">
+
+                    <img
+                        src="photo2.jpg"
+                        alt="Birthday memory 2"></img>
+
+                </button>
+
+
+                
+                <button class="memory" data-index="2">
+
+                    <img
+                        src="photo3.jpg"
+                        alt="Birthday memory 3">
+
+                </button>
+
+
+               
+                <button class="memory" data-index="3">
+
+                    <img
+                        src="photo4.jpg"
+                        alt="Birthday memory 4"> <img>
+
+
+                </button>
+
+                <button class="memory" data-index="4">
+
+                    <img
+                        src="photo5.jpg"
+                        alt="Birthday memory 5">
+
+                </button>
+
+                <button class="memory" data-index="5">
+
+                    <img
+                        src="photo6.jpg"
+                        alt="Birthday memory 6">
+
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FULLSCREEN IMAGE PLAYER -->
+    <div class="player" id="player">
+
+        <button
+            class="close-player"
+            id="closePlayer">
+            ×
+        </button>
+
+
+        <img
+            id="playerImage"
+            src="photo2.jpg"
+            alt="Selected birthday memory">
+
+
+        <div class="player-caption">
+
+            <h2 id="playerTitle">
+                Birthday Memory
+            </h2>
+
+            <p>
+                One random memory from the PartyFlix collection.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
